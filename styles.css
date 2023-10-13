@@ -1,0 +1,19 @@
+body {
+    background: palegoldenrod;
+    font-family: "Times New Roman", Times, serif;
+}
+ h1 {
+    color: blueviolet;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+.assign {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: goldenrod;
+}
+.assign img {
+    width: 600px;
+    padding: 10px;
+}
