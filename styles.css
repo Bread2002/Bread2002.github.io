@@ -1,19 +1,63 @@
 body {
-    background: palegoldenrod;
+    background-image: url('https://c.pxhere.com/photos/a6/a5/crown_bald_branch_sky_black_and_white_trees_nature_landscape_log-487613.jpg!d');
+    background-size: cover; /* This will make the image cover the entire element */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
     font-family: "Times New Roman", Times, serif;
 }
- h1 {
-    color: blueviolet;
+h1 {
+    color: #000000;
+    text-shadow: 1px 2px #ffffff;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
-.assign {
+a {
+    text-decoration: none; /* remove underlining on anchor tags */
+    color: #ffffff; /* pick the color you want */
+}
+a:hover {
+    text-decoration: none; /* remove underlining on anchor tags */
+    color: #000000; /* pick the color you want */
+}
+.assignment {
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: goldenrod;
+    margin-bottom: 20px;
+    background: #6f6f6f;
+    border-radius: 20px; /* curved corners */
+    box-shadow: 4px 5px #ffffff;
 }
-.assign img {
-    width: 700px;
+.assignment img {
+    width: 600px;
+    height: auto;
+    border: 2px dashed #000000;
+    border-radius: 5px;
+    margin-right: 20px; /* Add margin to create space between image and text */
+}
+.assignment-alt {
+    display: flex;
     padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    background: #6f6f6f;
+    border-radius: 20px; /* curved corners */
+    box-shadow: 4px 5px #ffffff;
 }
+.assignment-alt img {
+    width: 750px; 
+    height: 75px;
+    border: 2px dashed #000000;
+    border-radius: 5px;
+    margin-right: 20px; /* Add margin to create space between image and text */
+}
+.assignment-alt h2 {
+    text-decoration: none; /* remove underlining on anchor tags */
+    color: #ffffff; /* pick the color you want */
+}
+.assignment-details {
+    display: flex;
+    flex-direction: row; /* Arrange content in a row */
+    justify-content: space-between; /* Add space between image and text */
+    align-items: center; /* Vertically center content */
+    text-align: center;
+  }
