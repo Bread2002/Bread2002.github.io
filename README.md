@@ -1,8 +1,8 @@
-Rye Stahle-Smith
-Spring 2023
-UofSC - CSCE 190: Computing in the Modern World
-Github Page Portfolio (HTML and CSS)
-------------------------------------------------------------
+Rye Stahle-Smith<br>
+Spring 2023<br>
+UofSC - CSCE 190: Computing in the Modern World<br>
+Github Page Portfolio (HTML and CSS)<br>
+------------------------------------------------------------<br>
 
 This repository houses a concise portfolio-based website that I developed during my CSCE 190 class. Throughout the course,
 I collaborated with a team of classmates, fostering relationships that evolved over the semester. Together, we built strong
